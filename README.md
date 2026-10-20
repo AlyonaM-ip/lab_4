@@ -290,7 +290,7 @@ Userspace-скрипт предназначен для независимой в
   
 ---  
 **3. Визуализация отображения виртуальных страниц на физические кадры**  
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAxElEQVR4nO1W0Q6AIAiE/v+bpaeaYyYc6NLVvbRm484DL1lEKAIRIWaG1zQ4IgAhsHCMJkc31BXQKmbtvF73iOkKQIvV8LbpFqAJ9Dvac2Z2iQ4N4UiYQ2gJ9G7g6TsupQw7UpHjefTCBCEmwueEaPAMhBzQBVDC+tkit2pOOQWXEx5H0gIy/ScK/Atq0os4k5ihHOilHJyYyyfhTIjIJg48idQ5EME6DrwlZB0HthaQcRG+FbeQuaZ/ewb2ScJfQBSe9p77EZ7a26s/yQAAAABJRU5ErkJggg==)  
+![Разреженность физической памяти](memory_scatter.png)
 Для построения диаграммы рассеяния (Scatter Plot) всего адресного пространства процесса использовался скрипт на Python с использованием библиотек `matplotlib` и `seaborn`. Скрипт последовательно обходит все страницы процесса, вычитывает их PFN и наносит точки на график.  
 ```  
 import matplotlib.pyplot as plt  
